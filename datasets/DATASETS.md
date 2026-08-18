@@ -1,5 +1,17 @@
 # Manhattan Housing Prediction - Datasets Documentation
 
+## Table of Contents
+- [Overview](#overview)
+- [1. NYC Citywide Annualized Sales](#1-nyc-citywide-annualized-sales-w2pb-icbu)
+- [2. MapPLUTO](#2-mappluto-64uk-42ks)
+- [3. Census Bureau ACS5](#3-census-bureau-acs5-2022)
+- [4. MTA Subway Stations](#4-mta-subway-stations-39hk-dx4f)
+- [Data Integration](#data-integration)
+- [Data Quality & Missing Values](#data-quality--missing-values)
+- [Notes for Analysis](#notes-for-analysis)
+
+---
+
 ## Overview
 This project uses three primary data sources from NYC Open Data and the Census Bureau to predict Manhattan housing prices. The datasets are merged using the BBL (Borough, Block, Lot) identifier and geographic coordinates.
 
@@ -214,3 +226,5 @@ This project uses three primary data sources from NYC Open Data and the Census B
 3. **Neighborhood Variation:** Wide range of property types and prices across Manhattan's diverse neighborhoods
 4. **Feature Engineering:** Derived features include distance to subway, age of building, price per sq ft, etc.
 5. **Collinearity:** Multiple size measures (land_sqft, gross_sqft, units) are correlated and require careful selection
+
+[Back to Table of Contents](#table-of-contents)
